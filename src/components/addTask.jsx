@@ -24,8 +24,8 @@ export default function AddTask({adicionar}){
     return(
         <View style={styles.body}>
             <Text style={styles.title}>Adicione uma Tarefa</Text>
-            <TextInput style={styles.input} placeholder="Título" value={title} onChangeText={(text)=> setTitle(text)}></TextInput>
-            <TextInput  style={styles.input} placeholder="Descrição" value={description} onChangeText={(text)=> setDescription(text)}></TextInput>
+            <TextInput style={styles.input} placeholder="Título" placeholderTextColor="#000000" value={title} onChangeText={(text)=> setTitle(text)}></TextInput>
+            <TextInput  style={styles.input} placeholder="Descrição" placeholderTextColor="#000000" value={description} onChangeText={(text)=> setDescription(text)}></TextInput>
             <TouchableOpacity style={styles.botao} onPress={add}><Text style={{fontSize:20}}>Adicionar</Text></TouchableOpacity>
         </View>
     )

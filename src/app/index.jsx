@@ -16,7 +16,7 @@ export default function Home() {
 
   return (
     <View>
-      <StatusBar></StatusBar>
+      <StatusBar backgroundColor="#000" barStyle="light-content"></StatusBar>
       <View style={{ height, backgroundColor: "#f3f3f3" }}>
         <CardTop></CardTop>
         <CardBottom></CardBottom>

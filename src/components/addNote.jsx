@@ -16,6 +16,7 @@ export default function addNote({adicionar}) {
       <TextInput
         multiline
         placeholder="Adicione um nota..."
+        placeholderTextColor="#000000"
         style={styles.input}
         value={note}
         onChangeText={setNote}
